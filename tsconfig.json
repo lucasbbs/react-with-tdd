@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "esModuleInterop": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "jsx": "react",
+        "rootDir": "./src",
+        "baseUrl": "./src",
+        "skipLibCheck": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "outDir": "./dist",
+    },
+    "include": ["src"],
+    "exclude": ["node_modules", "**/*.test.ts", "**/*.test.tsx"]
+}
